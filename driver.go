@@ -68,7 +68,7 @@ var (
 	capabilities = &drivers.Capabilities{
 		SendSignals: true,
 		Exec:        false,
-		FSIsolation: drivers.FSIsolationNone,
+		FSIsolation: drivers.FSIsolationImage,
 		NetIsolationModes: []drivers.NetIsolationMode{
 			drivers.NetIsolationModeGroup,
 			drivers.NetIsolationModeHost,
