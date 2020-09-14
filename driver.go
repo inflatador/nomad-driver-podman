@@ -19,11 +19,12 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/hashicorp/consul-template/signals"
 	"os/user"
 	"path/filepath"
 	"strings"
 	"time"
+
+	"github.com/hashicorp/consul-template/signals"
 
 	"github.com/hashicorp/nomad/nomad/structs"
 
